@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma:wght@400;500;600;700&family=Oswald:wght@300;700&family=Raleway:wght@200;400;500;800&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=PT+Serif:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Karma';
+    background-color: #f5f2f0;
+}
+.bg-image>img{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 40vw;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin: 66px 100px;
+    font-weight: 500;
+
+}
+
+nav>ul{
+    position: relative;
+    margin-left: auto;
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    color: #aeacac;
+    font-size: 18px;
+}
+
+nav>ul::before{
+    position: absolute;
+    content: '';
+    width: 22vw;
+    height: 2px;
+    background-color: #000000;
+    top: 12px;
+    left: -24vw;
+}
+nav>ul>li:first-child{
+    color: #717070;
+}
+
+div.sections{
+    margin-left: 42vw;
+}
+
+p.heading{
+    font-size: 120px;
+    font-weight: 700;
+    font-family: 'PT Serif';
+    color:#ffffff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000000;
+}
+
+span.bolder{
+    position: relative;
+    font-family: 'PT Serif';
+    font-size: 120px;
+    font-weight: 900;
+    top: -65px;
+    right: -124px;
+    color: #333333;
+}
+
