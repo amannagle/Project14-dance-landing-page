@@ -21,7 +21,7 @@ body{
 nav{
     display: flex;
     align-items: center;
-    margin: 66px 100px;
+    margin: 66px 39px 66px 100px;
     font-weight: 500;
 
 }
@@ -63,12 +63,41 @@ p.heading{
 }
 
 span.bolder{
-    position: relative;
+    position: absolute;
     font-family: 'PT Serif';
     font-size: 120px;
     font-weight: 900;
-    top: -65px;
-    right: -124px;
+    bottom: -93px;
+    left: 125px;
     color: #333333;
 }
 
+section.middle{
+    position: relative;
+    display: flex;
+    margin-bottom: 100px;
+    gap: 180px;
+}
+
+div.icons{
+    position: absolute;
+    top: 94px;
+    right: 67px;
+    display: flex;
+    flex-direction: column;
+    height: 372px;
+    justify-content: space-evenly;
+}
+
+
+p.line{
+    position: relative;
+    white-space: pre-line;
+    top: 75px;
+    align-self: flex-end;
+    font-size: 32px;
+}
+
+.social-icon{
+    width: 20px;
+}
