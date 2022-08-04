@@ -96,8 +96,97 @@ p.line{
     top: 75px;
     align-self: flex-end;
     font-size: 32px;
+    color: #a6a5a5;
 }
 
 .social-icon{
     width: 20px;
+}
+
+section.bottom{
+    display: flex;
+    gap: 50px;
+    margin: 0px 40px;
+}
+
+p.tag-line{
+    white-space: pre-line;
+}
+
+ul.pointer-list{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 40px;
+    font-size: 25px;
+}
+ul.pointer-list::before{
+    position: absolute;
+    content: '';
+    height: 400px;
+    width: 2px;
+    background-color: #a6a5a5;
+    bottom: -73px;
+    left: -20px;
+}
+ul.pointer-list>li{
+    position: relative;
+    color: #a6a5a5;
+}
+ul.pointer-list>li::before{
+    position: absolute;
+    content: "•";
+    font-size: 62px;
+    top: -22px;
+    left: -33px;
+    color: #a6a5a5;
+}
+
+ul.pointer-list>li:first-child{
+    position: relative;
+    color: rgb(52,52,52);
+}
+
+ul.pointer-list>li:first-child::before{
+    position: absolute;
+    content: "•";
+    font-size: 83px;
+    top: -34px;
+    left: -37px;
+    color: rgba(52,52,52,0.8);
+}
+
+p.quote{
+    font-size: 140px;
+    padding: 0;
+    margin: 0;
+    height: 48px;
+}
+
+p.tag-line{
+    color: #000000;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+div.quote>img{
+    width: 400px;
+}
+
+div.arrow{
+    position: absolute;
+    bottom: -27px;
+    right: 100px;
+}
+
+button.pkg{
+    display: block;
+    margin: 0 80px 0 auto;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #333333;
 }
