@@ -284,7 +284,13 @@ span.bar {
         align-items:center
     }
 
-    
+    html{
+        overflow-x: hidden;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
 
     
     }
